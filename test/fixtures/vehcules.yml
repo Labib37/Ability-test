@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mark: MyString
+  vehicule: MyString
+  year: 1
+  description: MyText
+  sold: false
+
+two:
+  mark: MyString
+  vehicule: MyString
+  year: 1
+  description: MyText
+  sold: false
