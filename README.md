@@ -18,7 +18,8 @@ rails g scaffold Vehcule mark:string vehicule:string year:integer description:te
 ```
 
 Take a look at `./app/controllers/vehicules_controller.rb`
-taswira
+
+![ctrl](https://user-images.githubusercontent.com/69093920/111729150-b8044600-886e-11eb-8fb6-ebb1ad05dd48.PNG)
 
 
 ### 3.Seed Data and Migrate Changes to DB
@@ -42,10 +43,15 @@ rails db:seed
 ```ruby
 rails s
 ```
+![json](https://user-images.githubusercontent.com/69093920/111729587-ab342200-886f-11eb-8aee-489d31591949.PNG)
+ 
+
 
 API Endpoints:
 
 bin/rails routes | grep vehcules
+
+![Inkedroutesss_LI](https://user-images.githubusercontent.com/69093920/111729254-f1d54c80-886e-11eb-9bb2-1f2654624c3d.jpg)
 
 
 
