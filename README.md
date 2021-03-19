@@ -68,6 +68,9 @@ or by using curl  ```curl http://localhost:3000/vehcules/2```
   - POST/vehicules: Add a new vehicle
    ``` curl -X POST -H "Content-Type: application/json" -d '{"mark": "RENAULT" , "vehicule": "clio", "year": "2019", "description": "many many miles 2145 old", "sold":"false" }'    http://localhost:3000/vehcules ```
    
+  - PUT/vehicules/{id}: Update the data of one vehicle
+  ```curl -X PUT -H "Content-Type: application/json" -d '{"mark": "utopia",  "vehicule": "updated", "year": "2015" ,"description": "rolling", "sold":"false"}' "http://localhost:3000/vehcules/4" ```
+  
     
   - DELETE/vehicules/{id}: Delete the vehicle
    ``` curl -X DELETE http://localhost:3000/vehcules/8```
