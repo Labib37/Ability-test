@@ -68,8 +68,9 @@ or by using curl  ```curl http://localhost:3000/vehcules/2```
   - POST/vehicules: Add a new vehicle
    ``` curl -X POST -H "Content-Type: application/json" -d '{"mark": "RENAULT" , "vehicule": "clio", "year": "2019", "description": "many many miles 2145 old", "sold":"false" }'    http://localhost:3000/vehcules ```
    
-  ![444444444444444444$](https://user-images.githubusercontent.com/69093920/111738293-631dfb00-8881-11eb-9fcd-5a498abcd3b2.PNG)
+  
 
+   ![888888](https://user-images.githubusercontent.com/69093920/111738360-8052c980-8881-11eb-928a-0dd17d7c07f5.PNG)
 
    
    
@@ -78,8 +79,7 @@ or by using curl  ```curl http://localhost:3000/vehcules/2```
   
   ![PUTtttt](https://user-images.githubusercontent.com/69093920/111733373-1550c500-8878-11eb-8cb0-e971d4db3f33.PNG)
 
-   ![888888](https://user-images.githubusercontent.com/69093920/111738360-8052c980-8881-11eb-928a-0dd17d7c07f5.PNG)
-
+   ![444444444444444444$](https://user-images.githubusercontent.com/69093920/111738293-631dfb00-8881-11eb-9fcd-5a498abcd3b2.PNG)
   
     
   - DELETE/vehicules/{id}: Delete the vehicle
