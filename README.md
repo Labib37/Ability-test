@@ -48,8 +48,9 @@ rails s
 
 
 API Endpoints:
-
-bin/rails routes | grep vehcules
+```ruby
+bin/rails routes | grep vehcules 
+``` 
 
 ![Inkedroutesss_LI](https://user-images.githubusercontent.com/69093920/111729254-f1d54c80-886e-11eb-9bb2-1f2654624c3d.jpg)
 
