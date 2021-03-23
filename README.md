@@ -6,7 +6,7 @@ The objective of this case is to develop one restful API for registering, editin
 To create a new API project in Rails, I executed the following:
 ```ruby
 rails new vehcule_api --api
-cd vehicule_api 
+cd vehcule_api 
 ```
 	
 ### 2.Using Scaffold to Generate Resource
